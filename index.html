@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валентинка от Ильи</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+            color: white;
+            font-family: monospace;
+            background: url(images.png);
+        }
+        .heart {
+            font-size: 16px; /* Уменьшен размер шрифта */
+            line-height: 1.2;
+            text-align: center;
+            animation: glow 1.5s infinite alternate; /* Анимация свечения */
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff1493, 0 0 20px #ff1493;
+                opacity: 0.7;
+            }
+            100% {
+                text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff1493, 0 0 40px #ff1493;
+                opacity: 1;
+            }
+        }
+
+        /* Медиа-запрос для адаптации под мобильные устройства */
+        @media (max-width: 600px) {
+            .heart {
+                font-size: 14px; /* Еще меньше размер шрифта для мобильных */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">
+        каАнечкаА &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           АнечкаАне  <br>              
+        нечкаАнечкаАнечка&nbsp;&nbsp;     чкаАнечкаАнечкаАн  <br>         
+      АнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАнечк  <br>       
+     АнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаА   <br>     
+    АнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАне   <br>    
+    нечкаАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАнеч   <br>       
+    каАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаА   <br>    
+    аАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАн   <br>    
+     нечкаАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАн   <br>     
+      чкаАнечкаАнечкаАнечкаАнечкаАнечкаАнечкаАн   <br>      
+      каАнечкаАнечкаАнечкаАнечкаАнечкаАне  <br>      
+        АнечкаАнечкаАнечкаАнечкаАне    <br>       
+         чкаАнечкаАнечкаАнечкаАн     <br>       
+          аAнечкаАнечкаАне        <br>   
+            чкаAнечка                      <br>
+              а                         <br>
+    </div>
+</body>
+</html>
